@@ -1,6 +1,10 @@
 /* Be sure to create a styles directory and put this file in there */
 /* @import "tips.css"; */
 
+/**{
+	border:1px black solid;
+ }*/
+
 body {
 	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
@@ -64,6 +68,7 @@ nav a:active {
 	justify-content: space-evenly;	
    /* flex-direction: column; NOPE*/
   /* width: 33%;NOPE*/
+  max-width: 60%;
 }
 
 .fish-card {
@@ -93,3 +98,22 @@ footer {
 	color: whitesmoke;
 	text-align: center;
 }
+
+.tipContainer {
+	display:flex;
+	/*flex-direction:column ;
+	max-width: 20%;
+	right: 20%;*/
+	align-items:flex-end;
+	
+}#locationList{
+	width:18%;
+}
+
+#tipList {
+	width: 18%;
+}
+
+/*.tipsgoright {
+	justify-content: flex-end;
+}*/

@@ -48,3 +48,8 @@ const tipsCollection =  [
 {tip:`Isolate`},
 {tip:`Seek expert advice`}
 ];
+
+export const getTips = () => {
+	
+	return tipsCollection;
+}
