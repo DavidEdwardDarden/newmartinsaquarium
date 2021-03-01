@@ -242,3 +242,15 @@ export const getFish3 = () => fishCollection;
 export function getFish2(){
 	return fishCollection;
 }
+
+export const getMostHolyFish = () => {
+
+	const holyFishArray = []
+
+	for(const fishObj of fishCollection) {
+	if(sampleFishObject.inches % 3 === 0){
+		holyFishArray.push(fishObj)
+	}
+}
+	return holyFishArray
+}
