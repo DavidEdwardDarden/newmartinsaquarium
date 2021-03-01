@@ -1,6 +1,10 @@
 /* Be sure to create a styles directory and put this file in there */
 /* @import "tips.css"; */
 
+/**{
+	border:1px black solid;
+ }*/
+
 body {
 	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
@@ -101,6 +105,13 @@ footer {
 	max-width: 20%;
 	right: 20%;*/
 	align-items:flex-end;
+	
+}#locationList{
+	width:18%;
+}
+
+#tipList {
+	width: 18%;
 }
 
 /*.tipsgoright {

@@ -14,7 +14,7 @@ export const TipList = () => {
     // 1. Get the array of Fish
     const allTips = getTips();
     // 2. Get a reference to the location on the DOM where you want to display the list of fish
-    const DOMLocation = document.querySelector("#fishList");
+    const DOMLocation = document.querySelector("#tipList");
     // 3. Declare a variable to hold on to fish HTML representations
     let tipsHTMLRepresentations = "";
     // 3. Loop over the array of fish and for each one, invoke the Fish component which returns HTML representation
